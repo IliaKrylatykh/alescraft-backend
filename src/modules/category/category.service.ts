@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { returnCategoryObject } from './return-category.object';
+import { returnCategoryObject } from './types/return-category.object';
 import { CategoryDto } from './dto/category.dto';
 import { PrismaService } from 'src/core/prisma/prisma.service';
 
